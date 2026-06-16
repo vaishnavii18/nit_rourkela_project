@@ -9,7 +9,6 @@ venv/
 
 logs/
 
-*.png
 
 models/*.zip
 
