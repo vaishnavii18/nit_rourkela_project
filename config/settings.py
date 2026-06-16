@@ -1,0 +1,17 @@
+import numpy as np
+
+AREA_SIZE = 500
+UAV_HEIGHT = 50
+
+START_POS = np.array([270,30])
+GOAL_POS = np.array([450,450])
+
+BS_POS = np.array([450,60])
+INTERFERENCE_POS = np.array([90,450])
+
+MAX_ENERGY = 10000
+MAX_SPEED = 20
+MAX_ACCEL = 5
+
+BANDWIDTH = 1e6
+NOISE_POWER = 1e-11
